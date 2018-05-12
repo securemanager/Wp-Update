@@ -32,7 +32,7 @@ mv wp-config.php wp-config.php.org
 tar -zxvf latest.tar.gz
 rm -rf wp-content && rm -rf wp-config.php
 mv wp-content.org wp-content
-mv wp-config.php.org
+mv wp-config.php.org wp-config.php
 
 echo "Completed Update Core"
 #Send Email Ending 
